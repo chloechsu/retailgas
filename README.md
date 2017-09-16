@@ -1,13 +1,25 @@
 # Weekly Retail Gas Price Prediction
 
-Predictive model for weekly retail gas prices in different states and cities.
+Consider the following scenario. Suppose I drive about the same distance every
+week and I have enough gas left in the tank for another week.
+If I know the gas price is going down next week, I could save some money by
+waiting till next week to fill up the tank.
 
-Predictors: crude oil and gasoline spot prices, stocks, and supplies.
+With this motivation, it'd be nice to predict retail gas price trends. Compared
+to crude oil, retail gas price changes more slowly (larger autocorrelation), so
+it might be easier to predict than crude oil.
 
-Data source: [U.S. Energy Information Administration](https://www.eia.gov)
+This project compares three models for predicting weekly trend of retail gas
+prices:
 
-The goal is to predict the **trend** of retail gas price, in order to save money
-on gas.
+[1. Multivariate Rolling Regression](multivariate_rolling_regression.html)
+[2. ARIMA](ARIMA_model.html)
+[3. Logistic Regression](logistic_regression.html)
+
+The predictors include: crude oil and gasoline spot prices, as well as crude oil
+and gasoline stocks.
+All data are from [U.S. Energy Information
+Administration](https://www.eia.gov).
 
 Model Comparison:
 
@@ -23,7 +35,8 @@ Under reasonable assumptions, an average driver would save about \$65 in
 2011-2016 in Los Angeles.
 
 ## Table of Contents
-### 1. Multivariate Rolling Regression Model for National Retail Gas Price
+### [1. Multivariate Rolling Regression Model for National Retail Gas Price](
+multivariate_rolling_regression.html)
 
 * Set-up
 * Differentiation
@@ -38,7 +51,7 @@ Under reasonable assumptions, an average driver would save about \$65 in
   + Metric 1: Correlation of Predicted and Actual Log Return
   + Metric 2: Prediction of Price Trend 
 
-### 2. ARIMA Model for National Retail Gas Price
+### [2. ARIMA Model for National Retail Gas Price](ARIMA_model.html)
 
 * Set-up
 * Differentiation
@@ -51,7 +64,8 @@ Under reasonable assumptions, an average driver would save about \$65 in
   + Metric 2: Prediction of Price Trend 
 * Comparison to Multivariate Rolling Regression
 
-### 3. Logistic Regression Model for National Retail Gas Price Trend
+### [3. Logistic Regression Model for National Retail Gas Price Trend](
+logistic_regression.html)
 
 * Set-up
 * Binary Classification Problem
@@ -64,7 +78,8 @@ Under reasonable assumptions, an average driver would save about \$65 in
   + Accuracy
 * Comparison to Multivariate Rolling Regression and ARIMA
 
-### 4. Saving Money from Predicting Los Angeles Gas Price Trend
+### [4. Saving Money from Predicting Los Angeles Gas Price Trend](
+los_angeles.html)
 
 * Set-up
 * Correlation between National and Local Gas Price Move Direction
