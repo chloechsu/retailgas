@@ -12,8 +12,9 @@ on gas.
 Model Comparison:
 
 * Performance in Cross-Validation 
+
 | Model                            | Precision   | Recall     | Accuracy  |
-| -------------                    |:-----------:|:----------:|:---------:|
+| -------------                    | ----------- | ---------- | --------- |
 | Multivariate Rolling Regression  | 66%         |   78%      | 72%       |
 | ARIMA                            | 68%         |   71%      | 72%       |
 | Logistic Regression              | 91%         |   77%      | 86%       |
