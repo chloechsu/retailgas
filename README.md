@@ -16,6 +16,8 @@ prices:
 [2. ARIMA](ARIMA_model.html)
 [3. Logistic Regression](logistic_regression.html)
 
+(Please download the linked html files to view Jupyter notebooks.)
+
 The predictors include: crude oil and gasoline spot prices, as well as crude oil
 and gasoline stocks.
 All data are from [U.S. Energy Information
@@ -35,8 +37,7 @@ Under reasonable assumptions, an average driver would save about \$65 in
 2011-2016 in Los Angeles.
 
 ## Table of Contents
-### [1. Multivariate Rolling Regression Model for National Retail Gas Price](
-multivariate_rolling_regression.html)
+### [1. Multivariate Rolling Regression Model for National Retail Gas Price](multivariate_rolling_regression.html)
 
 * Set-up
 * Differentiation
@@ -64,8 +65,7 @@ multivariate_rolling_regression.html)
   + Metric 2: Prediction of Price Trend 
 * Comparison to Multivariate Rolling Regression
 
-### [3. Logistic Regression Model for National Retail Gas Price Trend](
-logistic_regression.html)
+### [3. Logistic Regression Model for National Retail Gas Price Trend](logistic_regression.html)
 
 * Set-up
 * Binary Classification Problem
@@ -78,8 +78,7 @@ logistic_regression.html)
   + Accuracy
 * Comparison to Multivariate Rolling Regression and ARIMA
 
-### [4. Saving Money from Predicting Los Angeles Gas Price Trend](
-los_angeles.html)
+### [4. Saving Money from Predicting Los Angeles Gas Price Trend](los_angeles.html)
 
 * Set-up
 * Correlation between National and Local Gas Price Move Direction
