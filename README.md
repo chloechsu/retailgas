@@ -30,7 +30,7 @@ Data source: [U.S. Energy Information Administration](https://www.eia.gov)
 * Partial Autocorrelation
 * Model Choice: ARIMA(3,1,0)
 * Fit Model
-* Testing in Cross-Validation Period
+* Test in Cross-Validation Period
   + Metric 1: Correlation of Predicted and Actual Log Return
   + Metric 2: Prediction of Price Trend 
 * Comparison to Multivariate Rolling Regression
