@@ -18,13 +18,9 @@ Data source: [U.S. Energy Information Administration](https://www.eia.gov)
     * Selected Predictors
 * Rolling Regression
     * Change of Regression Coefficients over time
-* Test in Training Period
-  + Metric 1: Correlation of Predicted and Actual Log Return
-  + Outlier: Hurrican Katrina
-  + Metric 2: Precision, Recall, and Accuracy of Predicting Price Move Directions
 * Test in Cross-Validation Period
   + Metric 1: Correlation of Predicted and Actual Log Return
-  + Metric 2: Precision, Recall, and Accuracy of Predicting Price Move Directions
+  + Metric 2: Prediction of Price Trend 
 
 ### 2. ARIMA Model for National Retail Gas Price
 
@@ -34,12 +30,9 @@ Data source: [U.S. Energy Information Administration](https://www.eia.gov)
 * Partial Autocorrelation
 * Model Choice: ARIMA(3,1,0)
 * Fit Model
-* Testing in Training Period
-  + Metric 1: Correlation of Predicted and Actual Log Return
-  + Metric 2: Precision, Recall, and Accuracy of Predicting Price Move Directions
 * Testing in Cross-Validation Period
   + Metric 1: Correlation of Predicted and Actual Log Return
-  + Metric 2: Precision, Recall, and Accuracy of Predicting Price Move Directions
+  + Metric 2: Prediction of Price Trend 
 * Comparison to Multivariate Rolling Regression
 
 ### 3. Logistic Regression Model for National Retail Gas Price Trend
