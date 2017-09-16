@@ -7,7 +7,7 @@ Predictors: crude oil and gasoline spot prices, stocks, and supplies.
 Data source: [U.S. Energy Information Administration](https://www.eia.gov)
 
 ## Table of Contents
-1. Multivariate Rolling Regression Model for National Retail Gas Price
+### 1. Multivariate Rolling Regression Model for National Retail Gas Price
 
 * Set-up
 * Differentiation
@@ -26,7 +26,7 @@ Data source: [U.S. Energy Information Administration](https://www.eia.gov)
   + Metric 1: Correlation of Predicted and Actual Log Return
   + Metric 2: Precision, Recall, and Accuracy of Predicting Price Move Directions
 
-2. ARIMA Model for National Retail Gas Price
+### 2. ARIMA Model for National Retail Gas Price
 
 * Set-up
 * Differentiation
@@ -42,7 +42,7 @@ Data source: [U.S. Energy Information Administration](https://www.eia.gov)
   + Metric 2: Precision, Recall, and Accuracy of Predicting Price Move Directions
 * Comparison to Multivariate Rolling Regression
 
-3. Logistic Regression Model for National Retail Gas Price Trend
+### 3. Logistic Regression Model for National Retail Gas Price Trend
 
 * Set-up
 * Binary Classification Problem
@@ -55,7 +55,7 @@ Data source: [U.S. Energy Information Administration](https://www.eia.gov)
   + Accuracy
 * Comparison to Multivariate Rolling Regression and ARIMA
 
-4. Saving Money from Predicting Los Angeles Gas Price Trend
+### 4. Saving Money from Predicting Los Angeles Gas Price Trend
 
 * Set-up
 * Correlation between National and Local Gas Price Move Direction
