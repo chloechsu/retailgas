@@ -10,6 +10,7 @@ The goal is to predict the **trend** of retail gas price, in order to save money
 on gas.
 
 Model Comparison:
+
 * Performance in Cross-Validation 
 | Model                            | Precision   | Recall     | Accuracy  |
 | -------------                    |:-----------:|:----------:|:---------:|
