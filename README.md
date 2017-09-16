@@ -6,6 +6,20 @@ Predictors: crude oil and gasoline spot prices, stocks, and supplies.
 
 Data source: [U.S. Energy Information Administration](https://www.eia.gov)
 
+The goal is to predict the **trend** of retail gas price, in order to save money
+on gas.
+
+Model Comparison:
+* Performance in Cross-Validation 
+| Model                            | Precision   | Recall     | Accuracy  |
+| -------------                    |:-----------:|:----------:|:---------:|
+| Multivariate Rolling Regression  | 66%         |   78%      | 72%       |
+| ARIMA                            | 68%         |   71%      | 72%       |
+| Logistic Regression              | 91%         |   77%      | 86%       |
+
+Under reasonable assumptions, an average driver would save about \$65 in
+2011-2016 in Los Angeles.
+
 ## Table of Contents
 ### 1. Multivariate Rolling Regression Model for National Retail Gas Price
 
